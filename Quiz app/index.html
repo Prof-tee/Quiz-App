@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="Css/style.css">
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="/Images/Favicon.png" type="image/x-icon">
+  <title>Quiz App</title>
+</head>
+<body>
+
+  <div class="quiz-card">
+    <h3 class="text-center mb-3">Guess the Programming Language</h3>
+
+    <p id="clue" class="text-center">Clue will appear here...</p>
+
+    <input type="text" id="answer" class="form-control" placeholder="Enter your answer" />
+
+    <button class="btn btn-primary w-100 mt-3" onclick="checkAnswer()">Submit</button>
+
+    <p id="feedback" class="feedback text-center"></p>
+
+    <div class="score text-center mt-2">
+      Score: <span id="score">0</span>
+    </div>
+  </div>
+<script src="Js/script.js"></script>
+<script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
