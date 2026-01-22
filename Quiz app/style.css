@@ -1,0 +1,32 @@
+    body {
+    background-color: aqua !important;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .quiz-card {
+      max-width: 500px;
+      width: 100%;
+      padding: 2rem;
+      border-radius: 15px;
+      background: #ffffff;
+    }
+
+.quiz-card:hover{
+    transform: scale(1.05);
+    box-shadow: #000 0 10px 10px 0;
+    transition: .5s ease-in-out .5s;
+
+}
+
+    .feedback {
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+
+    .score {
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
